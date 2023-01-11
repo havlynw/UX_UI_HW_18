@@ -1,0 +1,71 @@
+#ContentContainer {
+    width: auto;
+    
+  }
+  
+  
+  #HomepageNav {
+    background-color: #17706E;
+    display: flex;
+    position: sticky;
+    height: 5em;
+    padding-left: 100em;
+    justify-content: flex-end;
+   }
+  
+  #HomepageNav a {
+      color: white;
+      text-align: center;
+      margin: 0px;
+      padding: 1em;
+      display:inline-flex;
+      
+  }
+  
+  body {
+    background-image:  ('C:\Users\HAV\Desktop\images\school supply landing page.jpg');
+    background-color: #e0a03f;
+    background-repeat: no-repeat;
+
+  }
+  
+  a.donate {
+      background-color: #ec975e; 
+      box-shadow: 0 5px 0 #FB7813;
+      color: white;
+      padding: 1em 1em;
+      position: relative;
+      text-transform: uppercase;
+  }
+  
+  .HomepageCards {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    width: 100%;
+    column-gap: 65%;
+    
+
+  }
+  
+  .flexGap {
+    display:inline-block;
+    background-color: #FFFFFF;
+
+  }
+  
+  .flexGap2 {
+    display:inline-block;
+    background-color: #FFFFFF;
+
+  }
+  
+  .whoWeAreCard {
+    background-color: #adc5ae;
+
+  }
+  
+  .makeYourImpactCard {
+    background-color: #ec975e;
+    
+  }
